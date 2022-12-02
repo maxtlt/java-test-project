@@ -44,8 +44,8 @@ public class Main {
             {
                 System.out.println("За какой месяц Вы хотите вывести статистику: 1-ЯНВ, 2-ФЕВР, 3-МАРТ, 4-АПР, 5-МАЙ, 6-ИЮНЬ, 7-ИЮЛЬ, 8-АВГ, 9-СТБР, 10-ОКТБ, 11-НБР, 12-ДЕК?");
                 int month = scanner.nextInt();
-                int amount = 1;
-                int ft = 2;
+                int amount = 0;
+                int ft = 0;
                 for (int i = 1; i < amountDays-1; i++)
                 {
                     System.out.print(""+i+" день: "+stepTrack.ViewSteps(month,i-1)+", ");

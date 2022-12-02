@@ -46,6 +46,7 @@ public class Main {
                 int month = scanner.nextInt();
                 int amount = 0;
                 int ft = 0;
+                int rt - 0;
                 for (int i = 1; i < amountDays-1; i++)
                 {
                     System.out.print(""+i+" день: "+stepTrack.ViewSteps(month,i-1)+", ");
